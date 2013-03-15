@@ -9,3 +9,15 @@ The code below shows facebook like buttons<br/>
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div style="border:1px solid blue;" class="fb-like" data-href="http://www.facebook.com/IIPSIDigital" data-send="true" data-width="450" data-show-faces="true" data-font="verdana"></div>
+
+<!--another box-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="fb-like-box" data-href="http://www.facebook.com/IIPSIDigital/" data-width="292" data-show-faces="true" data-stream="true" data-border-color="light blue" data-header="true"></div>
